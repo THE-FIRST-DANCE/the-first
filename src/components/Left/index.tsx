@@ -1,7 +1,12 @@
 import styled from 'styled-components';
+import Navigation from './Navigation';
 
 const Left = () => {
-  return <Container>Left</Container>;
+  return (
+    <Container>
+      <Navigation />
+    </Container>
+  );
 };
 
 export default Left;
