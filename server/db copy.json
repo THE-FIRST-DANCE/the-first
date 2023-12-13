@@ -1,0 +1,209 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "content": "ブルーノートとジャーズ、大好き！,ブルーノート東京35周年 特設サイトオープン！インタビュー映像のフルバージョンは、こちらでご覧いただけます。ブルーノート東京35周年 特設サイトオープン！インタビュー映像のフルバージョンは、こちらでご覧いただけます。",
+      "imgs": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Blue_Note_%28Tokyo%29.jpg/375px-Blue_Note_%28Tokyo%29.jpg",
+        "https://www.bluenote.co.jp/jp/artists/assets_c/2023/09/20231205fl-thumb-668x376-45885.jpg",
+        "https://postfiles.pstatic.net/MjAyMzA0MzBfNjMg/MDAxNjgyODYyMDIxODgx.1Rz05H3nJEX82kyCyC3f-2nppm4PxAhqECeV6UP6c2Eg.oyZwWxh_eQgBap-gq6Nm_Fh-FZk1pUmdxdHJm-uLPxkg.JPEG.23-century/362BD365-3C1D-45AC-993E-95E12FD1AB7E_1_105_c.jpeg?type=w773"
+      ],
+      "heart": true,
+      "userId": 1,
+      "placeId": 1,
+      "tags": [1, 2],
+      "created_at": 1699880808118,
+      "updated_at": 1699880808118,
+      "user": {
+        "id": 1,
+        "email": "cheiru94gmail.com",
+        "username": "ichiban",
+        "name": "재일",
+        "avatar": "https://github.com/cheiru94.png",
+        "bio": "칠전팔기, 이재일!",
+        "password": "1234"
+      }
+    },
+    {
+      "id": 2,
+      "content": "밤하늘이 너무나도 멋짐돠!",
+      "imgs": [
+        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+        "https://cdn.pixabay.com/photo/2015/02/24/15/41/wolf-647528_1280.jpg"
+      ],
+      "heart": true,
+      "userId": 2,
+      "placeId": 1,
+      "tags": [1, 2],
+      "created_at": 1699880808118,
+      "updated_at": 1699880808118,
+      "user": {
+        "id": 2,
+        "email": "l.juhyeonni@gmail.com",
+        "username": "juhyeonni",
+        "name": "주현",
+        "avatar": "https://github.com/juhyeonni.png",
+        "bio": "안녕하세요. 주현입니다.",
+        "password": "1234"
+      }
+    },
+    {
+      "id": 3,
+      "content": "모히또 가서 몰디브 한잔하고 왔어요",
+      "imgs": [
+        "https://cdn.pixabay.com/photo/2018/06/13/18/20/waves-3473335_1280.jpg",
+        "https://cdn.pixabay.com/photo/2016/03/04/19/36/beach-1236581_1280.jpg"
+      ],
+      "heart": false,
+      "userId": 3,
+      "placeId": 1,
+      "tags": [1, 2],
+      "created_at": 1699880808118,
+      "updated_at": 1699880808118,
+      "user": {
+        "id": 3,
+        "email": "hetame1@gmail.com",
+        "username": "hetame1",
+        "name": "지훈",
+        "avatar": "https://github.com/hetame1.png",
+        "bio": "안냐세여, 지훈이에여",
+        "password": "1234"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "name": "566라멘",
+      "address": "3 연남로"
+    },
+    {
+      "id": 2,
+      "name": "신촌 Sinchon, Seoul, South Korea",
+      "address": "신촌, Seoul, Korea"
+    },
+    {
+      "id": 3,
+      "name": "연남동 Yeonnam-dong, Mapo-gu, Seoul, South Korea",
+      "address": "연남동, Mapo-gu, Seoul, Korea"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "라멘"
+    },
+    {
+      "id": 2,
+      "name": "맛집"
+    },
+    {
+      "id": 3,
+      "name": "카페"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "cheiru94gmail.com",
+      "username": "ichiban",
+      "name": "재일",
+      "avatar": "https://github.com/cheiru94.png",
+      "bio": "칠전팔기, 이재일!",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "email": "l.juhyeonni@gmail.com",
+      "username": "juhyeonni",
+      "name": "주현",
+      "avatar": "https://github.com/juhyeonni.png",
+      "bio": "안녕하세요. 주현입니다.",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "email": "hetame1@gmail.com",
+      "username": "hetame1",
+      "name": "지훈",
+      "avatar": "https://github.com/hetame1.png",
+      "bio": "안냐세여, 지훈이에여",
+      "password": "1234"
+    }
+  ],
+  "story": [
+    {
+      "id": 1,
+      "name": "story1",
+      "img": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
+      "content": [
+        {
+          "id": 1,
+          "name": "content11",
+          "img": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg"
+        },
+        {
+          "id": 2,
+          "name": "content12",
+          "img": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+        },
+        {
+          "id": 3,
+          "name": "content13",
+          "img": "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "story2",
+      "img": "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg",
+      "content": [
+        {
+          "id": 1,
+          "name": "content21",
+          "img": "https://picsum.photos/200/300"
+        },
+        {
+          "id": 2,
+          "name": "content22",
+          "img": "https://picsum.photos/200/300"
+        },
+        {
+          "id": 3,
+          "name": "content23",
+          "img": "https://picsum.photos/200/300"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "story3",
+      "img": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg",
+      "content": [
+        {
+          "id": 1,
+          "name": "content31",
+          "img": "https://picsum.photos/200/300"
+        },
+        {
+          "id": 2,
+          "name": "content32",
+          "img": "https://picsum.photos/200/300"
+        },
+        {
+          "id": 3,
+          "name": "content33",
+          "img": "https://picsum.photos/200/300"
+        }
+      ]
+    }
+  ]
+}
