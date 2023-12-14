@@ -1,13 +1,25 @@
 import { SkeletonImage, SkeletonText } from '@components/common/Skeleton';
-import { Post } from '@interfaces/post.interface';
+import { PostWithUser } from '@interfaces/post.interface';
 import styled from 'styled-components';
+import { useState } from 'react';
+import PostModal from './PostModal';
 
 interface ProfilePostsProps {
-  posts: Post[];
+  posts: PostWithUser[];
 }
 
 const ProfilePosts = (props: ProfilePostsProps) => {
   const { posts } = props;
+
+  const [openedModalId, setOpenedModalId] = useState<null | number>(null);
+
+  const openModal = (id: number) => {
+    setOpenedModalId(id);
+  };
+
+  const closeModal = () => {
+    setOpenedModalId(null);
+  };
 
   return (
     <Container>
@@ -17,12 +29,11 @@ const ProfilePosts = (props: ProfilePostsProps) => {
       </PostCount>
       <PostThumbContainer>
         {posts.map((post) => (
-          // FIXME: 상세보기 모달로 변경해야됨
-          <PostThumb
-            key={post.id}
-            onClick={() => console.log('상세보기 모달 포스트: ' + post.id)}
-          >
+          <PostThumb key={post.id} onClick={() => openModal(post.id)}>
             <img src={post.photos[0]} alt="thumb" className="img" />
+            {openedModalId === post.id && (
+              <PostModal post={post} onClose={closeModal} />
+            )}
           </PostThumb>
         ))}
       </PostThumbContainer>
@@ -83,7 +94,7 @@ const PostThumbContainer = styled.div`
   width: 100%;
 `;
 
-const PostThumb = styled.button`
+const PostThumb = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

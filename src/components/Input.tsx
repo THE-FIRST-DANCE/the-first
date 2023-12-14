@@ -19,10 +19,10 @@ const Container = styled.div`
   margin-bottom: 1rem;
 `;
 
-const Label = styled.label`
-  font-size: 0.75rem;
-  font-weight: 300;
-`;
+// const Label = styled.label`
+//   font-size: 0.75rem;
+//   font-weight: 300;
+// `;
 
 const InputContainer = styled.input<{ $errors: FieldErrors; id: string }>`
   height: 35px;

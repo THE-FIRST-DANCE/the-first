@@ -1,94 +1,391 @@
 {
-  "posts": [
-    {
-      "id": 2,
-      "content": "밤하늘이 너무나도 멋짐돠!",
-      "photos": [
-        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-        "https://cdn.pixabay.com/photo/2015/02/24/15/41/wolf-647528_1280.jpg"
-      ],
-      "userId": 2,
-      "placeId": 1,
-      "tags": [
-        1,
-        2
-      ],
-      "created_at": 1699880808118,
-      "updated_at": 1699880808118
-    },
-    {
-      "id": 3,
-      "content": "모히또 가서 몰디브 한잔하고 왔어요",
-      "photos": [
-        "https://cdn.pixabay.com/photo/2018/06/13/18/20/waves-3473335_1280.jpg",
-        "https://cdn.pixabay.com/photo/2016/03/04/19/36/beach-1236581_1280.jpg"
-      ],
-      "userId": 3,
-      "placeId": 1,
-      "tags": [
-        1,
-        2
-      ],
-      "created_at": 1699880808118,
-      "updated_at": 1699880808118
-    }
-  ],
   "users": [
     {
-      "id": 1,
-      "email": "cheiru94gmail.com",
-      "username": "ichiban",
-      "name": "재일",
-      "avatar": "https://github.com/cheiru94.png",
-      "bio": "칠전팔기, 이재일!",
-      "password": "1234"
-    },
-    {
       "id": 2,
-      "email": "l.juhyeonni@gmail.com",
-      "username": "juhyeonni",
-      "name": "주현",
-      "avatar": "https://github.com/juhyeonni.png",
-      "bio": "안녕하세요. 주현입니다.",
+      "email": "h.jaehyun@gmail.com",
+      "username": "jaehyun",
+      "name": "재현",
+      "avatar": "https://github.com/jaehyun.png",
+      "bio": "안녕하세요. 재현입니다.",
       "password": "1234"
     },
     {
       "id": 3,
-      "email": "hetame1@gmail.com",
-      "username": "hetame1",
-      "name": "지훈",
-      "avatar": "https://github.com/hetame1.png",
-      "bio": "안냐세여, 지훈이에여",
+      "email": "k.jonghoon@gmail.com",
+      "username": "jonghoon",
+      "name": "종훈",
+      "avatar": "https://github.com/jonghoon.png",
+      "bio": "안녕하세요. 종훈입니다.",
       "password": "1234"
+    },
+    {
+      "id": 4,
+      "email": "l.yoonsoo@gmail.com",
+      "username": "yoonsoo",
+      "name": "윤수",
+      "avatar": "https://github.com/yoonsoo.png",
+      "bio": "안녕하세요. 윤수입니다.",
+      "password": "1234"
+    },
+    {
+      "id": 5,
+      "email": "m.jisoo@gmail.com",
+      "username": "jisoo",
+      "name": "지수",
+      "avatar": "https://github.com/jisoo.png",
+      "bio": "안녕하세요. 지수입니다.",
+      "password": "1234"
+    },
+    {
+      "email": "d556f8@gmail.com",
+      "password": "$2a$10$fc0C/42m82Q8TmmRT8.goe1p.C7iwpurW1nIJWwJ.EWohNQo/6aN6",
+      "username": "d556f8",
+      "name": "d556f8",
+      "id": 6,
+      "avatar": "https://github.com/juhyeoni.png",
+      "bio": "안녕하세요. d556f8입니다."
+    },
+    {
+      "email": "203wolf@gmail.com",
+      "password": "$2a$10$2npj3XpnwLQA0y8v376UxepSdJCVU2nADle7KHSmmYA30mg8uAe4m",
+      "username": "203wolf",
+      "id": 7,
+      "name": "주현"
+    },
+    {
+      "email": "l.juhyeonni@gmail.com",
+      "password": "$2a$10$2npj3XpnwLQA0y8v376UxepSdJCVU2nADle7KHSmmYA30mg8uAe4m",
+      "username": "juhyeonni",
+      "id": 8,
+      "avatar": "https://thumbsnap.com/i/VJSzdATV.png",
+      "name": "주현",
+      "bio": "안녕하세요. 검색기능 구현, json-server의 사용자 인증 라우팅  기능 활용, 로그인 기능, 새 게시물 작성을 구현했습니다. github.com/juhyeonni"
+    },
+    {
+      "email": "aaaa@gmail.com",
+      "password": "$2a$10$2WHVdwN2y2GdUe7lAtx5w.TImIDe/qkZIrr0xFI7QHaaBMsbfDV2q",
+      "username": "aaaa",
+      "id": 9,
+      "name": "aaaa",
+      "bio": "저는 aaaa라고 합니다.",
+      "avatar": "https://thumbsnap.com/i/tzapxEG2.png"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$ar53bZTlJFjkMHz23UaQW.AEY6UbNhkPTHKtzgcbDG8NnGxzX6R4C",
+      "username": "0gene_68",
+      "avatar": "https://thumbsnap.com/i/CfFbzw8Z.jpg",
+      "id": 10,
+      "name": "안영진",
+      "bio": "저 학교에서 스폰 안받았습니다"
+    },
+    {
+      "email": "aaaa2@gmail.com",
+      "password": "$2a$10$nogxlskHtvgY8SO5wAgZZuxcLwTv.UMrNceKMbgugPRzsMYpTg1VC",
+      "username": "aaaa",
+      "id": 11
+    },
+    {
+      "email": "bbb2@gmail.com",
+      "password": "$2a$10$vSSW3I0rC6Wu8C/gYY05KuoF.t93GSu9vqxkDBIRgf8UwQAUnemrq",
+      "username": "bbb2",
+      "id": 12,
+      "avatar": "https://thumbsnap.com/i/dR8iLQAz.png"
+    },
+    {
+      "email": "test3@gmail.com",
+      "password": "$2a$10$Iy5GUK0iP5U5.iJ2N3aQK.2UTpEVAZQnHbiuduHRVSMg2JKrMWxXi",
+      "username": "test3",
+      "name": "주현",
+      "id": 13
+    },
+    {
+      "email": "d556f8@g.yju.ac.kr",
+      "password": "$2a$10$SCRhN3Lf6d94y/59Ml.cguZumjvj7WwOr.NqmETI1U2sCemkl6uEa",
+      "username": "d556f82",
+      "name": "d556f82",
+      "id": 14
+    },
+    {
+      "email": "cccc@gmail.com",
+      "password": "$2a$10$/.jr.8K0iK8v4WK.70o88eWh95EfTcbsRWylFaW7jQil/KPo9AD1G",
+      "username": "123qwe",
+      "name": "cccc",
+      "id": 15
+    },
+    {
+      "email": "cccc4@gmail.com",
+      "password": "$2a$10$IxmnejqRRM9TdeScBQrdr.8gLpOldlFuxzPTaLe/JfKZM0ZEV1iDG",
+      "name": "bbbb",
+      "username": "d556f",
+      "id": 16
+    },
+    {
+      "email": "123123@gmail.com",
+      "password": "$2a$10$ybBG7WZDOWLKEXGHk0WtreNSi0GUzKveHQxbv31dD701o5U6Te9qm",
+      "name": "123123",
+      "username": "123qwe123qwe",
+      "id": 17
+    },
+    {
+      "email": "123qwe@gmail.com",
+      "password": "$2a$10$71johSTjpS9tKInrns/OgOZ/X3GkWC28XN7vwdfa0Shzlp9YlniMa",
+      "name": "1231231",
+      "username": "123qwe123",
+      "id": 18
+    },
+    {
+      "email": "test2@test.com",
+      "password": "$2a$10$m9QSxhO3mATYrnx2jlxuvu8uWMIsT/0F/WsUt3GvYQsBt9RbrRZc.",
+      "name": "test2",
+      "username": "hetame",
+      "avatar": "https://thumbsnap.com/i/K81bcSbr.jpg",
+      "id": 19
     },
     {
       "email": "cheiru94@gmail.com",
-      "password": "$2a$10$CDZer.sMMkWj/.t5bnBUEedm8Pv5ShcHVmQe9Q3.1RqYkHYQ6AHbq",
-      "username": "cheiru94",
-      "id": 4,
-      "name": "재일",
-      "bio": "안녕하세요 재일입니다.",
-      "avatar": "https://thumbsnap.com/i/EcYzGEez.png"
-    }
-  ],
-  "hearts": [
-    {
-      "user_id": 4,
-      "post_id": 4,
-      "id": 1
+      "password": "$2a$10$2U8tAeAYDujX2QnmZ29YYueD4XC/jkZS6TA2QOPAqDwzf0LouqUSq",
+      "name": "cheiru94",
+      "username": "이재일",
+      "id": 20,
+      "avatar": "https://thumbsnap.com/i/4RCLzCph.jpg",
+      "bio": "하이염 방가방가^^ 일촌 맺어요 ㅇㅎㅎ"
     },
     {
-      "user_id": 4,
-      "post_id": 3,
+      "email": "ex1@g.yju.ac.kr",
+      "password": "$2a$10$3hZHJ6hxQ3.buv6LtpNx6uyIL8Zh.sqsPoYidIfYJqvpHs1BqehjS",
+      "name": "김민재",
+      "username": "sipinto",
+      "id": 21,
+      "avatar": "https://thumbsnap.com/i/zvSVLEvu.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "content": "아주 좋아용😃",
+      "photos": [
+        "https://thumbsnap.com/i/z7pdFTf6.jpg"
+      ],
+      "tags": [],
+      "userId": 8,
+      "placeId": 1,
+      "created_at": 1702126477732,
+      "updated_at": 1702126477732,
       "id": 2
     },
     {
-      "user_id": 4,
-      "post_id": 2,
-      "id": 3
+      "content": "2020년 코로나 사태에 따른 비대면 수업에서 아두이노를 사용한 블록코딩을 수업하는 박성철 교수님🔥",
+      "photos": [
+        "https://thumbsnap.com/i/Pk3eDcug.jpg"
+      ],
+      "tags": [],
+      "userId": 8,
+      "placeId": 1,
+      "created_at": 1702196480846,
+      "updated_at": 1702196480846,
+      "id": 5,
+      "newContent": "asd"
+    },
+    {
+      "content": "✨",
+      "photos": [
+        "https://thumbsnap.com/i/gkiYDjdL.jpg"
+      ],
+      "tags": [],
+      "userId": 7,
+      "placeId": 1,
+      "created_at": 1702463176398,
+      "updated_at": 1702463176398,
+      "id": 7
+    },
+    {
+      "content": "후쿠오카 타워 멋있다",
+      "photos": [
+        "https://thumbsnap.com/i/hEdBbcjM.jpg"
+      ],
+      "tags": [],
+      "userId": 10,
+      "placeId": 1,
+      "created_at": 1702578318823,
+      "updated_at": 1702578318823,
+      "id": 8
+    },
+    {
+      "content": "걸었던 텐진의 거리, \n\n그 자리에는 은은한 율동이 흐르고 있었다. 마치 거리의 곳곳에서 느껴지는 은은한 울림이 마음을 감싸 안고 있었다. 걸음마다 땅과 만나는 순간, 그 율동은 마치 자연과의 소통 같은 흐름이었다.\n\n텐진의 거리에는 색다른 감성이 고스란히 담겨 있었다. 한가로운 저녁 태양이 거리를 감싸며 노을을 뿌리고, 그 속에서 느껴지는 따스함은 마치 음악처럼 마음을 울렸다. 거리의 가로수는 바람에 스치는 잎사귀의 소리로 미소를 짓고 있었고, 그 순간은 마치 은은한 선율이 흘러나오는 피아노 소리처럼 기억에 남았다.\n\n사람들 간의 만남과 작은 대화 속에서는 은율이 흐르듯이 나뉘고 합쳐져, 마음 속에 조화를 이루었다. 서로 다른 인연들이 만들어내는 조화로운 공간에서는 마음이 은은한 희열로 충만해졌다. 각자의 삶이 소박한데서 나오는 아름다움이, 텐진의 거리를 더욱 풍요롭게 만들어주었다.\n\n텐진의 거리, 그곳은 마치 자연의 숨결과도 같은 은은한 율동으로 가득 차 있었다. 그 율동은 마음을 차분하게 만들고, 걷는 이의 감성을 음미하게 만들었다. 거리를 떠날 때, 마음은 그 은율을 품고 더 나아가는 듯한 기분이었다. 텐진의 거리, 그곳에서 느낀 은율은 마음을 차분하게 만들어주었고, 그 순간은 마치 조용한 음악 속에서 나만의 소소한 행복을 발견한 듯한 느낌이었다.",
+      "photos": [
+        "https://thumbsnap.com/i/imPnmANd.jpg",
+        "https://thumbsnap.com/i/v1hAFUr1.jpg"
+      ],
+      "tags": [],
+      "userId": 8,
+      "placeId": 1,
+      "created_at": 1702580731173,
+      "updated_at": 1702580731173,
+      "id": 9
     }
   ],
-  "comments": [],
+  "story": [
+    {
+      "userId": 19,
+      "name": "hetame",
+      "img": "https://thumbsnap.com/i/K81bcSbr.jpg",
+      "content": [
+        {
+          "content": "\n2023.08.06\n\n현지학기제 출발",
+          "img": "https://thumbsnap.com/i/uvN72Sui.jpg",
+          "id": 1
+        },
+        {
+          "content": "\n\n\n\n\n\n\n\n출발 전 공항에서\n",
+          "img": "https://thumbsnap.com/i/4dHojMys.jpg",
+          "id": 2
+        },
+        {
+          "content": "\n가고시마에서\n\n배우는 역사",
+          "img": "https://thumbsnap.com/i/B82WpCoH.jpg",
+          "id": 3
+        },
+        {
+          "content": "\n\n현지 일본인들과 문화 교류 체험",
+          "img": "https://thumbsnap.com/i/7b1kf6BX.jpg",
+          "id": 4
+        },
+        {
+          "content": "\n\npencil 기업 탐방!!",
+          "img": "https://thumbsnap.com/i/b9FaVmzB.jpg",
+          "id": 5
+        },
+        {
+          "content": "\n\n최첨단 소방 훈련",
+          "img": "https://thumbsnap.com/i/SFomT4e5.jpg",
+          "id": 6
+        },
+        {
+          "content": "\n\n마지막 수업\n\n수료증 수료",
+          "img": "https://thumbsnap.com/i/PiSupfRZ.jpg",
+          "id": 7
+        },
+        {
+          "content": "\n\n\n1조 화이팅!!",
+          "img": "https://thumbsnap.com/i/L5vh3fhY.jpg",
+          "id": 8
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 20,
+      "name": "cheiru94",
+      "img": "https://thumbsnap.com/i/4RCLzCph.jpg",
+      "content": [
+        {
+          "content": "영원하라 1조",
+          "img": "https://thumbsnap.com/i/CVJeKgnx.jpg",
+          "id": 1
+        },
+        {
+          "content": "사랑하는 1조와\n\n사쿠라지마 경관을 보며 조식을..... ^^",
+          "img": "https://thumbsnap.com/i/GsptNruD.jpg",
+          "id": 2
+        },
+        {
+          "content": "\n우리 지훈이와 투샷",
+          "img": "https://thumbsnap.com/i/tsv7fyMM.jpg",
+          "id": 3
+        },
+        {
+          "content": "\n일본에서 조차도 공부를.... \n\n우리 1조 너무 대단하죠?? ㅎㅎ",
+          "img": "https://thumbsnap.com/i/a3ZHMFgd.jpg",
+          "id": 4
+        },
+        {
+          "content": "\n후쿠오카에서 선배를 만나다! ",
+          "img": "https://thumbsnap.com/i/u6fN2u5k.jpg",
+          "id": 5
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 10,
+      "name": "0gene_68",
+      "img": "https://thumbsnap.com/i/CfFbzw8Z.jpg",
+      "content": [
+        {
+          "content": "2023. 08. 06 출발~",
+          "img": "https://thumbsnap.com/i/WAEqvwXq.jpg",
+          "id": 1
+        },
+        {
+          "content": "신신 라멘",
+          "img": "https://thumbsnap.com/i/YfFDjAQf.jpg",
+          "id": 2
+        },
+        {
+          "content": "\n\n\n\n\n\n벳푸 원숭이",
+          "img": "https://thumbsnap.com/i/VwjS28BS.jpg",
+          "id": 3
+        },
+        {
+          "content": "\n\n\n\n\n\n\n\n\n\n\n지고 있는데 풍선 날리는 \n일본 야구 문화...",
+          "img": "https://thumbsnap.com/i/hNg4G3ge.jpg",
+          "id": 4
+        },
+        {
+          "content": "\n\n\n\n\n\n\n\n\n6조...",
+          "img": "https://thumbsnap.com/i/SsQUUp4Y.jpg",
+          "id": 5
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 8,
+      "name": "juhyeonni",
+      "img": "https://thumbsnap.com/i/VJSzdATV.png",
+      "content": [
+        {
+          "content": "\n유명한 호르몬동 맛집",
+          "img": "https://thumbsnap.com/i/w7PVEFo8.jpg",
+          "id": 1
+        },
+        {
+          "content": "\n\n\n가고시마 센간엔에서 보이는 사쿠라지마 섬\n\n경치가 지림",
+          "img": "https://thumbsnap.com/i/R8rJWGpU.jpg",
+          "id": 2
+        },
+        {
+          "content": "",
+          "img": "https://thumbsnap.com/i/XvDRyeMf.jpg",
+          "id": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 21,
+      "name": "sipinto",
+      "img": "https://thumbsnap.com/i/zvSVLEvu.jpg",
+      "content": [
+        {
+          "content": "오사케",
+          "img": "https://thumbsnap.com/i/RCJrut8M.jpg",
+          "id": 1
+        },
+        {
+          "content": "수료날",
+          "img": "https://thumbsnap.com/i/2QuvijyU.jpg",
+          "id": 2
+        },
+        {
+          "content": "다시 가고 싶습니당",
+          "img": "https://thumbsnap.com/i/aEUCS6xU.jpg",
+          "id": 3
+        }
+      ],
+      "id": 5
+    }
+  ],
   "places": [
     {
       "id": 1,
@@ -118,74 +415,57 @@
     {
       "id": 3,
       "name": "카페"
+    },
+    {
+      "name": "작업물",
+      "id": 4
+    },
+    {
+      "name": "완료",
+      "id": 5
+    },
+    {
+      "name": "끝",
+      "id": 6
+    },
+    {
+      "name": "sony",
+      "id": 7
+    },
+    {
+      "name": "영진전문대",
+      "id": 8
+    },
+    {
+      "name": "특강",
+      "id": 9
     }
   ],
-  "story": [
+  "hearts": [
     {
-      "id": 1,
-      "name": "story1",
-      "img": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-      "content": [
-        {
-          "id": 1,
-          "name": "content11",
-          "img": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg"
-        },
-        {
-          "id": 2,
-          "name": "content12",
-          "img": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
-        },
-        {
-          "id": 3,
-          "name": "content13",
-          "img": "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg"
-        }
-      ]
+      "user_id": 7,
+      "post_id": 6,
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "story2",
-      "img": "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg",
-      "content": [
-        {
-          "id": 1,
-          "name": "content21",
-          "img": "https://picsum.photos/200/300"
-        },
-        {
-          "id": 2,
-          "name": "content22",
-          "img": "https://picsum.photos/200/300"
-        },
-        {
-          "id": 3,
-          "name": "content23",
-          "img": "https://picsum.photos/200/300"
-        }
-      ]
+      "user_id": 7,
+      "post_id": 4,
+      "id": 3
     },
     {
-      "id": 3,
-      "name": "story3",
-      "img": "https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg",
-      "content": [
-        {
-          "id": 1,
-          "name": "content31",
-          "img": "https://picsum.photos/200/300"
-        },
-        {
-          "id": 2,
-          "name": "content32",
-          "img": "https://picsum.photos/200/300"
-        },
-        {
-          "id": 3,
-          "name": "content33",
-          "img": "https://picsum.photos/200/300"
-        }
-      ]
+      "user_id": 20,
+      "post_id": 1,
+      "id": 4
+    },
+    {
+      "user_id": 7,
+      "post_id": 5,
+      "id": 5
+    },
+    {
+      "user_id": 7,
+      "post_id": 5,
+      "id": 6
     }
   ]
 }

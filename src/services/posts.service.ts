@@ -9,7 +9,7 @@ export async function createPost(payload: PostPayload) {
 
   const photos = await registerPhotos(payload.photos);
 
-  const res = await baseAxios.post('/posts', {
+  await baseAxios.post('/posts', {
     ...payload,
     photos,
     created_at: Date.now(),
@@ -19,6 +19,17 @@ export async function createPost(payload: PostPayload) {
 
 export async function getPosts(): Promise<Post[]> {
   const res = await baseAxios.get('/posts');
+  return res.data;
+}
+
+/* 🟡 post 수정 🟡 */
+export async function patchPost(post: {
+  id: number;
+  content: string;
+}): Promise<PostWithUser[]> {
+  // eslint-disable-next-line prefer-template
+  // const res = await axios.patch('/posts/1', '바뀐 게시글 내용');
+  const res = await baseAxios.patch(`/posts/${post.id}`, post);
   return res.data;
 }
 
@@ -67,16 +78,16 @@ export async function registerPhoto(photo: File) {
 }
 
 // eslint-disable-next-line default-param-last
-export async function getPostPaginate(page = 1, limit = 10, options?: object) {
+export async function getPostPaginate(page = 1, limit = 10) {
   const res = await baseAxios.get(
     `/posts?_page=${page}&_limit=${limit}&_expand=user`
   );
   return res.data;
 }
 
-export async function getPostsByUserId(userId: number) {
-  const res = await baseAxios.get<Post[]>(
-    `/posts?userId=${userId}&_sort=id&_order=desc`
+export async function getPostsWithUserByUserId(userId: number) {
+  const res = await baseAxios.get<PostWithUser[]>(
+    `/posts?_expand=user&userId=${userId}&_sort=id&_order=desc`
   );
   return res.data;
 }
@@ -100,4 +111,11 @@ export async function postHeartsInfo(heartInfo: any) {
 export async function deleteHeartsInfo(heartId: number) {
   const res = await baseAxios.delete(`/hearts/${heartId}`);
   return res.data;
+}
+
+export async function getPostUser(postId: number) {
+  const res = await baseAxios.get<PostWithUser[]>(
+    `/posts?id=${postId}&_expand=user`
+  );
+  return res.data[0];
 }

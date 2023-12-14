@@ -2,7 +2,7 @@ import { Ref, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import PlusIcon from '@assets/icons/plus';
-import { ImageListType } from '@/types/StoryType';
+import { ImageListType } from '@interfaces/story.interface';
 import { convertURLtoFile } from '@utils/file';
 import getImages from '@services/imageSearch.service';
 import ImageSlider from './ImageSlider';

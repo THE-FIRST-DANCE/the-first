@@ -4,7 +4,7 @@ import { baseAxios } from '@axios';
 import { AnimatePresence, motion, useMotionValue } from 'framer-motion';
 import { useNavigate, useParams } from 'react-router-dom';
 import styled from 'styled-components';
-import { StoryType } from '@/types/StoryType';
+import { StoryType } from '@interfaces/story.interface';
 
 const slideVariants = {
   hidden: (direction: string) => ({
@@ -52,7 +52,7 @@ const Card = styled(motion.div)`
   position: absolute;
   width: 30rem;
   height: 90vh;
-  background-color: red;
+  background-color: #000;
   border-radius: 4vmin;
   display: flex;
   justify-content: center;
@@ -146,6 +146,10 @@ function StoryPage() {
     navigate(`/story/${visibleIndex - 1}`);
   };
 
+  const dataChange = () => {
+    getData();
+  };
+
   return (
     <Container>
       <AnimatePresence custom={direction} initial={false}>
@@ -182,7 +186,11 @@ function StoryPage() {
                   x.set(info.point.x);
                 }}
               >
-                <SwiperBox data={post.content} />
+                <SwiperBox
+                  data={post.content}
+                  storyUser={post.userId}
+                  dataChange={dataChange}
+                />
                 {visibleIndex === 0 ? null : (
                   <PrevButton
                     whileTap={{ scale: 0.9 }}

@@ -1,4 +1,4 @@
-import { ImageListType } from '@/types/StoryType';
+import { ImageListType } from '@interfaces/story.interface';
 import axios from 'axios';
 
 export default async function getImages(

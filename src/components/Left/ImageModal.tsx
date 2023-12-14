@@ -1,4 +1,4 @@
-import { ImageListType } from '@/types/StoryType';
+import { ImageListType } from '@interfaces/story.interface';
 import { useState } from 'react';
 import ReactModal from 'react-modal';
 import styled from 'styled-components';

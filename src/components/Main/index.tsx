@@ -1,15 +1,11 @@
 /* eslint-disable react/self-closing-comp */
 import styled from 'styled-components';
 import { useEffect, useState } from 'react';
-import { PostWithUser, Post, HeartsInfo } from '@interfaces/post.interface';
+import { PostWithUser, Post } from '@interfaces/post.interface';
 import Story from './Story';
 import MainCard from './MainCard';
 // eslint-disable-next-line import/order
-import {
-  getPosts,
-  getPostsUsers,
-  getHeartsInfo,
-} from '@services/posts.service';
+import { getPostsUsers } from '@services/posts.service';
 
 const Main = () => {
   const [mainPosts, setMainPosts] = useState<PostWithUser[]>([]);
@@ -17,10 +13,8 @@ const Main = () => {
   const [isPostDeleted, setIsPostDeleted] = useState(false);
 
   //  -----------------------------------------useEffect start----------------------------------
-  /* 🟡 post + user 데이터 가져오기 🟡 */
   useEffect(() => {
     getPostsUsers().then((posts) => {
-      console.log('getPostsUsers :', posts); // 가져온 포스트 출력
       setMainPosts(posts);
       const postsWithoutUser = posts.map((post) => {
         return {
@@ -36,22 +30,21 @@ const Main = () => {
       setOnlyPosts(postsWithoutUser);
     });
   }, [isPostDeleted]);
-
   //  -----------------------------------------useEffect start----------------------------------
+
   return (
     <Container>
+      {/* MainCard에서 로그인 portal */}
       <div className="container start"></div>
       <Story />
       {/* 메인 카드 작성 */}
       <div style={{ margin: '0 auto' }}>
-        {/* {[...mainPosts].reverse().map((post, index) => ( */}
         {mainPosts.map((post, index) => (
           <MainCard
             key={post.id}
             post={post}
             onlyPost={onlyPosts[index]}
             setIsPostDeleted={setIsPostDeleted}
-            // handleCloseClick={setModalOpen}
           />
         ))}
       </div>
@@ -61,8 +54,11 @@ const Main = () => {
 
 export default Main;
 
+/* 중앙 컨테이너 정렬 */
 const Container = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
+
+  font-family: var(--font-family-system);
 `;

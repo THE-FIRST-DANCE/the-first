@@ -1,0 +1,11 @@
+{
+  "/users?username_like=:username": "/644/users?username_like=:username",
+  "/users?name_like=:name": "/644/users?name_like=:name",
+  "/posts/:id": "/640/posts/:id",
+  "/users?username=:username": "/644/users?username=:username",
+  "/users?email=:email": "/644/users?email=:email",
+  "/users*": "/600/users$1",
+  "/posts*": "/664/posts$1",
+  "/tags*": "/664/tags$1",
+  "/places*": "/664/places$1"
+}

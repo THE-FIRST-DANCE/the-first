@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 'the-first_app'
+    restart: always
+    ports:
+      - '3000:80'
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+
+  json-server:
+    image: 'ghcr.io/the-first-dance/the-first_json-server'
+    container_name: 'the-first_json-server'
+    restart: always
+    ports:
+      - '3401:3401'
+    volumes:
+      - ./server:/app/data

@@ -14,7 +14,7 @@ export async function createTags(tags: string[]) {
   });
 
   newTags.forEach(async (tag) => {
-    const res = await baseAxios.post(`/tags`, {
+    await baseAxios.post(`/tags`, {
       name: tag,
     });
   });

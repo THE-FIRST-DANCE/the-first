@@ -1,14 +1,14 @@
 export interface StoryContentType {
   id: number;
-  name: string;
+  content: string;
   img: string;
-  text: string;
 }
 
 export interface StoryType {
   id: number;
   name: string;
   img: string;
+  userId: number;
   content: StoryContentType[];
 }
 

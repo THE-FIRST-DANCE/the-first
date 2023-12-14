@@ -40,3 +40,13 @@ export async function editProfile(profile: ProfilePayload) {
   const res = await baseAxios.patch(`/users/${profile.id}`, profile);
   return res.data;
 }
+
+export async function getUserWithSomePostsByUserId(userId: number) {
+  const res = await baseAxios.get<UserWithPosts>(
+    `/users/${userId}?_embed=posts&_sort=id&_order=desc`
+  );
+  const data = res.data;
+  data.posts = data.posts.slice(0, 3);
+
+  return data;
+}

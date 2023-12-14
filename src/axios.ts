@@ -18,7 +18,7 @@ export const thumbsnapAxios = OriginAxios.create({
     import.meta.env.VITE_API_CORS_ANYWHERE
   }/https://thumbsnap.com/api`,
   transformRequest: [
-    (data, headers) => {
+    (data) => {
       const newData = new FormData();
 
       Object.keys(data).forEach((key) => {

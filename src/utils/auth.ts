@@ -1,6 +1,6 @@
 import { Auth } from '@interfaces/auth.interface';
-import { getWithExpiry, setWithExpiry } from './expire';
 import { User } from '@interfaces/user.interface';
+import { getWithExpiry, setWithExpiry } from './expire';
 
 export function setAuth(auth: Auth) {
   setWithExpiry('access', auth, 3_600_000);
