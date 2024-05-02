@@ -1,5 +1,8 @@
 # THE-FIRST
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/THE-FIRST-DANCE/the-first/blob/master/README.md)
+[![ko](https://img.shields.io/badge/lang-ko-blue.svg)](https://github.com/THE-FIRST-DANCE/the-first/blob/master/README.ko.md)
+
 **THE-FIRST-DANCE**의 첫 작품이다.  
 Instagram을 모방한 사진 공유 소셜 네트워크 서비스입니다.
 
@@ -27,7 +30,7 @@ Instagram을 모방한 사진 공유 소셜 네트워크 서비스입니다.
 
 -- 작성중입니다.
 
-[👏 바로가기](http://home.juhyeonni.co.kr/)
+[👏 바로가기](http://home.juhyeonni.co.kr:4000)
 
 ## 실행 방법
 
