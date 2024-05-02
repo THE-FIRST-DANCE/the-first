@@ -3,7 +3,7 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/THE-FIRST-DANCE/the-first/blob/master/README.md)
 [![ko](https://img.shields.io/badge/lang-ko-blue.svg)](https://github.com/THE-FIRST-DANCE/the-first/blob/master/README.ko.md)
 
-**THE-FIRST-DANCE** is the first creation.  
+**THE-FIRST-DANCE**'s first creation.  
 It is a photo sharing social networking service that mimics Instagram.
 
 ## Introducing team members
