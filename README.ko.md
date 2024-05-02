@@ -6,6 +6,14 @@
 **THE-FIRST-DANCE**의 첫 작품이다.  
 Instagram을 모방한 사진 공유 소셜 네트워크 서비스입니다.
 
+## 팀원 소개
+|[Juhyeon Lee](https://github.com/juhyeonni)|[Jihun Kim](https://github.com/hetame1)|[Jaeil Lee](https://github.com/cheiru94)|[Youngjin An](https://github.com/0gene68)|
+|:--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+| <img src="https://github.com/juhyeonni.png" width=400px alt="Juhyeon"/> | <img src="https://github.com/hetame1.png" width=400px alt="Jihun"/> | <img src="https://github.com/cheiru94.png" width=400px alt="Jaeil"> | <img src="https://github.com/0gene68.png" width=400px alt="Youngjin"/> | 
+|Leader|Frontend|Frontend|Frontend|
+
+---
+
 ## 제작 계기
 
 `THE-FIRST`를 기획하게 된 이유는, 이전 1학기 자바스크립트 프로젝트 `2951`을 만들면서 아쉬웠던 부분을 채우고 좀 더 다채로운 라이브러리를 사용하여 만들어 보고자 **했습니다**.
